@@ -1,0 +1,226 @@
+/* form */
+body{
+    background:url('../img/PATAS.jpg');
+}
+
+.table {
+    background: floralwhite;
+    color: 
+}
+
+.page-header {
+    border: none;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: none;
+}
+
+.navbar-toggle {
+    background-color: black;
+}
+
+.footer li a {
+    color: white;
+}
+
+.footer li a:hover {
+       color: blue;
+       background-color: coral;
+}
+
+.navbar .navbar-brand {
+    color: black;
+}
+
+.navbar .navbar-brand:hover {
+    color: blue;
+}
+
+.collapse .navbar-nav li a:hover {
+    color: blue;
+}
+
+.collapse .navbar-nav li a, .collapse .navbar-right p{
+    color: black;
+}
+
+.form-body{
+    background:#fff;
+    padding:20px;
+}
+
+#mainT {
+    background: url('../img/CAT2.jpg') top left no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    box-shadow:  0 0 70px #000;
+    padding-bottom: 210px;
+    padding-top: 90px;
+    color: white;
+    border-radius: 40px;
+    
+}
+
+footer {
+    margin-top: 405px;
+    background-color: coral; 
+    color: white;
+    padding: 32px;
+    border: none;
+}
+
+.row {
+    padding-top: 30px;
+}
+
+.login-form{
+    background:rgba(255,255,255,0.8);
+	padding:20px;
+	border-top:3px solid#3e4043;
+}
+.innter-form{
+	padding-top:20px;
+}
+.final-login li{
+	width:50%;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.nav-tabs>li{
+	color:#222 !important;
+}
+
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #fff;
+    background-color: #d14d42;
+    border: none !important;
+    border-bottom-color: transparent;
+	border-radius:none !important;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.428571429;
+    border: none !important;
+    border-radius:none !important;
+	text-transform:uppercase;
+	font-size:16px;
+}
+
+.sa-innate-form input[type=text], input[type=password], input[type=file], textarea, select, email{
+    font-size:13px;
+	padding:10px;
+	border:1px solid#ccc;
+	outline:none;
+	width:100%;
+	margin:8px 0;
+	
+}
+
+.sa-innate-form input[type=submit]{
+    border:1px solid#e64b3b;
+	background:#e64b3b;
+	color:#fff;
+	padding:10px 25px;
+	font-size:14px;
+	margin-top:5px;
+	}
+
+	.sa-innate-form input[type=submit]:hover{
+	border:1px solid#db3b2b;
+	background:#db3b2b;
+	color:#fff;
+	}
+	
+	.sa-innate-form button{
+	border:1px solid#e64b3b;
+	background:#e64b3b;
+	color:#fff;
+	padding:10px 25px;
+	font-size:14px;
+	margin-top:5px;
+	}
+	.sa-innate-form button:hover{
+	border:1px solid#db3b2b;
+	background:#db3b2b;
+	color:#fff;
+	}
+    .sa-innate-form p{
+        font-size:13px;
+        padding-top:10px;
+    }
+
+    #photo {
+        width: 250px;
+        height: 250px;
+    }
+
+    .det {
+        
+        border-bottom: 1px solid #cc3314;
+        color: #cc3314;   
+        margin-top: auto;
+    }
+
+      
+#loading{
+background-color: #bd4932;
+height: 100%;
+width: 100%;
+position: fixed;
+z-index: 999;
+margin-top: 0px;
+
+top: 0px;
+}
+
+#loading-center{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+#loading-center-absolute {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 200px;
+	width: 200px;
+	margin-top: -100px;
+	margin-left: -100px;
+}
+
+#object{
+	width: 80px;
+	height: 80px;
+	background-color: #FFF;
+	-webkit-animation: animate 1s infinite ease-in-out;
+	animation: animate 1s infinite ease-in-out;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 60px;
+}
+@-webkit-keyframes animate {
+  0% { -webkit-transform: perspective(160px); }
+  50% { -webkit-transform: perspective(160px) rotateY(-180deg); }
+  100% { -webkit-transform: perspective(160px) rotateY(-180deg) rotateX(-180deg); }
+}
+
+@keyframes animate {
+  0% { 
+    transform: perspective(160px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(160px) rotateX(0deg) rotateY(0deg); 
+  } 50% { 
+    transform: perspective(160px) rotateX(-180deg) rotateY(0deg);
+    -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(0deg) ;
+  } 100% { 
+    transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
+    -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
+  }
+}
